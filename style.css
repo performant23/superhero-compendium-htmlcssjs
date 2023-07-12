@@ -1,0 +1,113 @@
+html,body {
+  height: 100%;
+  width: 100%;
+}
+
+input[type=text] {
+  background-color: #9f9f9f;
+  color:  white;
+  padding:10px;
+  border-radius:10px;
+}
+
+input::placeholder{
+  color: white;
+}
+
+@keyframes gradient { 
+  0%{background-position:0 0}
+  100%{background-position:100% 0}
+}
+
+
+
+.search input {
+    background: linear-gradient(to right, black, purple);
+    background-size: 500% auto;
+    animation: gradient 3s linear infinite;
+}
+
+
+#heroIM{
+  border: 5px solid #78e8eb;
+}
+
+
+.HIC{
+  flex-direction: row;
+  justify-content: left;
+  top: 50%;
+  left: 20%;
+  margin: auto;
+  width:fit-content;
+  text-align: center;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  display:flex;
+  min-width: 0;
+  padding: 10px;
+}
+
+
+.stats{
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+
+#name{
+  text-align: center;
+  padding-right: 100px; 
+}
+
+#stats{
+  flex-direction: column;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  width:fit-content;
+  text-align: center;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  display:flex;
+  min-width: 0;
+  padding: 10px;
+}
+
+.name{
+  position: relative;
+}
+
+.name::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0;
+  height: 5px;
+  border-radius: 2px;
+  background: linear-gradient(111.3deg, #9c27b0 9.6%, #00bcd4 93.6%);
+}
+
+
+#BGC{
+  border-radius: 1rem;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  width: 50%;
+ background-size: cover; 
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  left:50%;
+  top: 50%;
+  
+}
